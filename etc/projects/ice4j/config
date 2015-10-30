@@ -1,3 +1,0 @@
-SVN_REPO=http://ice4j.googlecode.com/svn
-SVN_LAYOUT="--stdlayout"
-GIT_REPO=git@github.com:opentelecoms-org/ice4j.git
