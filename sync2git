@@ -2,6 +2,8 @@
 
 set -e
 
+SCR_DIR=$(dirname $(readlink -f ${0}))
+
 function cleanup_lock {
   if [ ! -z "${_LOCK_FILE}" ];
   then
@@ -15,7 +17,7 @@ function cleanup_lock {
 
 trap cleanup_lock EXIT
 
-ETC_PROJECTS=/etc/sync2git/projects
+ETC_PROJECTS=${SCR_DIR}/etc/projects
 if [ $# -eq 0 ];
 then
   PROJECTS=`cd "${ETC_PROJECTS}" ; ls`
@@ -29,8 +31,8 @@ do
   _LOCK_FILE=
 
   # Set some defaults (can be overridden by config file)
-  ETC_DIR=/etc/sync2git/projects/${PROJECT_NAME}
-  VAR_DIR=/var/lib/sync2git
+  ETC_DIR=${SCR_DIR}/etc/projects/${PROJECT_NAME}
+  VAR_DIR=${SCR_DIR}/var/lib
   PROJECT_ROOT=${VAR_DIR}/${PROJECT_NAME}
   CONFIG_FILE=${ETC_DIR}/config
   AUTHORS_FILE=${ETC_DIR}/authors.txt
