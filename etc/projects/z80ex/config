@@ -1,0 +1,7 @@
+#
+# Description: ZiLOG Z80 CPU emulation library (forked from http://sourceforge.net/p/z80ex/code/)
+# Website: http://z80ex.sourceforge.net/
+#
+SVN_REPO=http://svn.code.sf.net/p/z80ex/code
+SVN_LAYOUT="--stdlayout"
+GIT_REPO=git@github.com:lipro/z80ex.git
