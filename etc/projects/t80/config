@@ -1,0 +1,8 @@
+#
+# Description: The T80 (VHDL) synthesizable soft core of Zilog Z80 (forked from http://opencores.org/project,t80)
+# Website: http://opencores.org/project,t80
+# Bugs: http://opencores.com/project,t80,bugtracker
+#
+SVN_REPO=http://opencores.org/ocsvn/t80
+SVN_LAYOUT="--stdlayout"
+GIT_REPO=git@github.com:lipro/t80.git

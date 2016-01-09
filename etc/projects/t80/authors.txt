@@ -1,0 +1,4 @@
+(no author) = Open Core Administration <root@opencores.org>
+root = Open Core Administration <root@opencores.org>
+jesus = Daniel Wallner <jesus@opencores.org>
+andreas = Andreas Voggeneder <andreas@opencores.org>
