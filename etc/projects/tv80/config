@@ -1,0 +1,8 @@
+#
+# Description: The TV80 (Verilog) synthesizable soft core of Zilog Z80 (forked from http://opencores.org/project,tv80)
+# Website: http://opencores.org/project,tv80
+# Bugs: http://opencores.com/project,tv80,bugtracker
+#
+SVN_REPO=http://opencores.org/ocsvn/tv80
+SVN_LAYOUT="--stdlayout"
+GIT_REPO=git@github.com:lipro/tv80.git

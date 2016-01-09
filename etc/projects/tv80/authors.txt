@@ -1,0 +1,4 @@
+(no author) = Open Core Administration <root@opencores.org>
+root = Open Core Administration <root@opencores.org>
+ghutchis = Guy Hutchison <ghutchis@opencores.org>
+hharte = Howard M. Harte <hharte@opencores.org>
